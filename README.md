@@ -10,11 +10,13 @@ barrier equals to something like 0.000001 so the method solves vanilla options p
 =========DEMO RESULT=========
 
 All test are for vanilla options(Single down-and-out barrier options with lower barrier close to zero).
+Per calculation consumes 0.1 second with a 1200 * 1200 grid
+
 
 ```
 Test for call options
  
-strike        analycal          trivial_pde        improved_pde      mc
+strike        analytical          trivial_pde        improved_pde      mc
 80            24.5888354439     24.7412285125     24.5914777202     25.3872775504
 81            23.7408402658     23.89190531     23.7433355194     23.6718302425
 82            22.9041972857     23.0538008989     22.9067030056     22.8950990733
@@ -61,7 +63,7 @@ strike        analycal          trivial_pde        improved_pde      mc
 
 Test for put options
  
-strike        analycal          trivial_pde        improved_pde      mc
+strike        analytical          trivial_pde        improved_pde      mc
 80            0.687189403985     0.676029967856     0.686900089757     0.737937382526
 81            0.790423650323     0.777847627975     0.789988280166     0.868092708121
 82            0.905010094716     0.890884079429     0.904586157545     0.864227522705
