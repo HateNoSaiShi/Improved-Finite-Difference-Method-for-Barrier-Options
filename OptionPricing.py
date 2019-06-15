@@ -791,7 +791,7 @@ def main(option_position):
         '''
         mc_price_list.append(test_option.Monte_Carlo_Vanilla(1200))
         
-    print('strike        analycal          trivial_pde        improved_pde      mc')
+    print('strike        analytical          trivial_pde        improved_pde      mc')
     for i in range(41):
         print(str(strike_list[i]) + '            ' +str(analytical_price_list[i]) + '     ' + str(trivial_pde_price_list[i]) +
               '     ' + str(improved_pde_price_list[i]) + '     ' + str(mc_price_list[i]))
@@ -847,4 +847,4 @@ def ConvergenceAnalysis(option_position):
 if __name__ == '__main__':
     main('call')
     main('put')
-    pde_error_dic,mc_error_dic = ConvergenceAnalysis('call')
+    #pde_error_dic,mc_error_dic = ConvergenceAnalysis('call')
