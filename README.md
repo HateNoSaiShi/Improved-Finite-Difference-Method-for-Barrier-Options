@@ -1,4 +1,5 @@
 # Improved-Finite-Difference-Method-for-Barrier-Options
+```
 Non-uniform Finite Difference Method to price barrier options.
 
 =============================================For Your Information================================================
@@ -11,7 +12,7 @@ barrier equals to something like 0.000001 so the method solves vanilla options p
 
 All test are for vanilla options(Single down-and-out barrier options with lower barrier close to zero).
 Per calculation consumes 0.1 second with a 1200 * 1200 grid
-
+```
 
 ```
 Test for call options
