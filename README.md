@@ -14,6 +14,7 @@ All test are for vanilla options(Single down-and-out barrier options with lower 
 Test for call options
  
 strike        analycal          trivial_pde        improved_pde      mc
+
 80            24.5888354439     24.7412285125     24.5914777202     25.3872775504
 81            23.7408402658     23.89190531     23.7433355194     23.6718302425
 82            22.9041972857     23.0538008989     22.9067030056     22.8950990733
